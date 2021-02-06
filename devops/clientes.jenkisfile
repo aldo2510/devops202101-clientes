@@ -167,7 +167,7 @@ pipeline {
 
 
 
-stage('Deploy to GKE') {        
+stage('Deploy to GKE QA') {        
              agent {
                 docker { 
                     image 'google/cloud-sdk:latest' 
